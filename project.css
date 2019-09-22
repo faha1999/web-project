@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  background-image: linear-gradient(skyblue,white);
+}
+
+.tagline {
+  font-family: "Stingray";
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+.header-tagline {
+  border-bottom: 3px solid black;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 2px solid black;
+}
+
+.box{
+	border-right: 2px solid black;
+	padding: 0 10px;
+}
+.left-side{
+	width: 25%;
+}
+
+.article-title{
+	font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "ITC Bauhaus";
+}
+
+.article-text{
+   font-family: "Candara";
+   font-size: 18px;
+}
+
+.middle-side{
+	width: 50%;
+}
+
+.article-img {
+  width: 100%;
+  height: 300px;
+}
+
+.right-side{
+	width: 25%;
+}
+
+.big-side{
+	width: 75%;
+}
+
+.other-sections{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.site-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.section-link {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Magettas DEMO Light";
+  color: blue;
+}
+
+.colum-1{
+	background-color: #55efc4;
+}
+.colum-2{
+	background-color: #81ecec;
+}
+.colum-3{
+	background-color: #74b9ff;
+}
+.colum-4{
+	background-color: #a29bfe;
+}
+.colum-5{
+	background-color: #ffeaa7;
+}
+
+.section-link:hover {
+  text-decoration: underline;
+  color: red;
+}
